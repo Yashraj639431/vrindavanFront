@@ -137,7 +137,10 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="row gap-15">
+        <div className="row">
+          <div className="col-3">
+            <BlogCard />
+          </div>
           <div className="col-3">
             <BlogCard />
           </div>
@@ -177,7 +180,10 @@ const Home = () => {
             </div>
           </div>
         </div>
-        <div className="row gap-15">
+        <div className="row">
+          <div className="col-3">
+            <BlogCard />
+          </div>
           <div className="col-3">
             <BlogCard />
           </div>

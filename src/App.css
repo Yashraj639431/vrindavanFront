@@ -1,10 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
-
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
 }
 
 .resize-img {
@@ -105,7 +102,7 @@ a {
 }
 
 .button {
-    background-color: var(--color-232f3e);
+    background-color: #232f3e;
     color: white;
     font-size: 14px;
     padding: 13px 33px;
@@ -113,21 +110,13 @@ a {
 }
 
 .button:hover {
-    background-color: var(--color-febd69);
+    background-color: #febd69;
     color: #131921;
-}
-
-.blog-wrapper .row {
-    justify-content: center;
 }
 
 .blog-wrapper .row .col-3 {
     border-radius: 10px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-}
-
-.video-wrapper .row {
-    justify-content: center;
 }
 
 .video-wrapper .row .col-3 {
