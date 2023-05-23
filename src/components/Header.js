@@ -12,7 +12,7 @@ const Header = () => {
                 <Link to="/">Home</Link>
               </li>
               <li>
-                <Link href="event">Events</Link>
+                <Link to="event">Events</Link>
               </li>
 
               <li>
@@ -20,11 +20,11 @@ const Header = () => {
               </li>
 
               <li>
-                <Link href="aboutus">About Us</Link>
+                <Link to="aboutus">About Us</Link>
               </li>
 
               <li>
-                <Link href="contact">Contact</Link>
+                <Link to="contact">Contact</Link>
               </li>
             </ul>
             <button className="btn btn-outline-secondary event-btn">

@@ -102,7 +102,10 @@ const Home = () => {
         </div>
       </section>
       <section>
-        <div className="quote" style={{backgroundColor: "#FBF9F2", height: "40vh"}}>
+        <div
+          className="quote"
+          style={{ backgroundColor: "#FBF9F2", height: "40vh" }}
+        >
           <ImQuotesLeft className="open-quote mt-4 mb-5" />
           <h2>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere,
@@ -110,6 +113,33 @@ const Home = () => {
           </h2>
         </div>
       </section>
+      <Container class1="intro-wrapper py-5 home-wrapper-2">
+        <img
+          src="https://images.pexels.com/photos/1075947/pexels-photo-1075947.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          alt="intro"
+          width="600px"
+          height="450px"
+          style={{ borderRadius: "10px" }}
+        />
+        <div>
+          <h1>Intro</h1>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio,
+            sequi iste! Cum repellendus corrupti neque voluptates sunt aut,
+            impedit, beatae ipsa et, perferendis est vitae sed quas veritatis
+            minima ipsam repudiandae aliquid excepturi architecto eaque. Soluta
+            quidem nam, reiciendis fugiat dolore minima explicabo quam tenetur,
+            repudiandae placeat a pariatur dolorem aut nobis qui molestias eum
+            quibusdam nemo excepturi. Vitae, cum nostrum. Nihil aspernatur
+            consequatur accusamus ratione maxime iste temporibus atque nostrum
+            pariatur earum, unde cumque debitis nobis amet optio doloremque, ab
+            quas neque exercitationem harum error voluptatum sunt, consectetur
+            molestias. Esse, quod! Sed in tenetur consectetur velit, laboriosam
+            porro quo.
+          </p>
+        </div>
+      </Container>
+
       <Container class1="blog-wrapper py-5 home-wrapper-2">
         <div className="row">
           <div className="col-12">
@@ -119,19 +149,38 @@ const Home = () => {
                   display: "flex",
                   flexDirection: "row",
                   alignItems: "center",
-                  justifyContent: "center"
+                  justifyContent: "center",
                 }}
               >
                 <div
-                  style={{ flex: 1, height: "1px", backgroundColor: "black", marginLeft: "300px" }}
+                  style={{
+                    flex: 1,
+                    height: "1px",
+                    backgroundColor: "black",
+                    marginLeft: "300px",
+                  }}
                 />
 
                 <div>
-                  <p style={{ width: "200px", textAlign: "center", fontSize: "20px", fontWeight: "600"}}>Our Latest Blogs</p>
+                  <p
+                    style={{
+                      width: "200px",
+                      textAlign: "center",
+                      fontSize: "20px",
+                      fontWeight: "600",
+                    }}
+                  >
+                    Our Latest Blogs
+                  </p>
                 </div>
 
                 <div
-                  style={{ flex: 1, height: "1px", backgroundColor: "black", marginRight: "300px" }}
+                  style={{
+                    flex: 1,
+                    height: "1px",
+                    backgroundColor: "black",
+                    marginRight: "300px",
+                  }}
                 />
               </div>
             </div>
@@ -153,7 +202,7 @@ const Home = () => {
         </div>
       </Container>
 
-      <Container class1="video-wrapper py-5 home-wrapper-2">
+      <Container className="video-wrapper py-5 home-wrapper-2">
         <div className="row">
           <div className="col-12">
             <div className="section-heading mb-5">
@@ -162,19 +211,38 @@ const Home = () => {
                   display: "flex",
                   flexDirection: "row",
                   alignItems: "center",
-                  justifyContent: "center"
+                  justifyContent: "center",
                 }}
               >
                 <div
-                  style={{ flex: 1, height: "1px", backgroundColor: "black", marginLeft: "300px" }}
+                  style={{
+                    flex: 1,
+                    height: "1px",
+                    backgroundColor: "black",
+                    marginLeft: "300px",
+                  }}
                 />
 
                 <div>
-                  <p style={{ width: "200px", textAlign: "center", fontSize: "20px", fontWeight: "600"}}>Featured Videos</p>
+                  <p
+                    style={{
+                      width: "200px",
+                      textAlign: "center",
+                      fontSize: "20px",
+                      fontWeight: "600",
+                    }}
+                  >
+                    Featured Videos
+                  </p>
                 </div>
 
                 <div
-                  style={{ flex: 1, height: "1px", backgroundColor: "black", marginRight: "300px" }}
+                  style={{
+                    flex: 1,
+                    height: "1px",
+                    backgroundColor: "black",
+                    marginRight: "300px",
+                  }}
                 />
               </div>
             </div>

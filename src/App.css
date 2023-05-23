@@ -36,7 +36,7 @@ a:hover {
     width: 100%;
     justify-content: center;
     background-color: #fff;
-    opacity: 0.70;
+    opacity: 0.90;
 }
 
 .nav-links {
@@ -113,6 +113,9 @@ a {
     background-color: #febd69;
     color: #131921;
 }
+.blog-wrapper{
+    margin-top: 200px;
+}
 
 .blog-wrapper .row .col-3 {
     border-radius: 10px;
@@ -122,6 +125,13 @@ a {
 .video-wrapper .row .col-3 {
     border-radius: 10px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.intro-wrapper img{
+    float: left;
+    margin-right: 50px;
+}
+.intro-wrapper h1{
+    margin-bottom: 10px;
 }
 
 /* Footer Part */
