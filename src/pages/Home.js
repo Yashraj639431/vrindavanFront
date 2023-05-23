@@ -37,9 +37,9 @@ const Home = () => {
           <div className="carousel-inner">
             <div className="carousel-item active">
               <img
-                src={require("../images/1.jpg")}
+                src="https://images.pexels.com/photos/733745/pexels-photo-733745.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                 className="d-block w-100 resize-img"
-                alt="..."
+                alt="car1"
               />
               <div className="carousel-caption d-none d-md-block">
                 <h5>First slide label</h5>
@@ -50,7 +50,7 @@ const Home = () => {
             </div>
             <div className="carousel-item">
               <img
-                src={require("../images/2.jpg")}
+                src="https://images.pexels.com/photos/1075947/pexels-photo-1075947.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                 className="d-block w-100 resize-img"
                 alt="..."
               />
@@ -63,7 +63,7 @@ const Home = () => {
             </div>
             <div className="carousel-item">
               <img
-                src={require("../images/3.jpg")}
+                src="https://images.pexels.com/photos/1719648/pexels-photo-1719648.jpeg?auto=compress&cs=tinysrgb&w=400"
                 className="d-block w-100 resize-img"
                 alt="..."
               />
