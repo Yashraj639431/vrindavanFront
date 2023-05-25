@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 
 const BlogCard = () => {
   return (
-      <div className='blog-card'>
+      <div className='blog-card' /* style={{border: "1px solid black"}} */>
         <div className='card-image'>
-          <img src="https://images.pexels.com/photos/1719648/pexels-photo-1719648.jpeg?auto=compress&cs=tinysrgb&w=400" className='img-fluid w-100' alt='blog' />
+          <img src={require("../images/6.jpg")} className='img-fluid w-100' alt='blog' />
         </div>
         <div className='blog-content'>
           <p className='date'>1 Dec, 2022</p>

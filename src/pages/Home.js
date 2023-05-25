@@ -1,12 +1,12 @@
 import React from "react";
 import { ImQuotesLeft } from "react-icons/im";
-import Container from "./Container";
 import BlogCard from "../components/BlogCard";
+import VideoCard from "../components/videoCard";
 
 const Home = () => {
   return (
     <>
-      <section>
+      <section className="slider-wrapper">
         <div
           id="carouselExampleCaptions"
           className="carousel slide"
@@ -37,7 +37,7 @@ const Home = () => {
           <div className="carousel-inner">
             <div className="carousel-item active">
               <img
-                src="https://images.pexels.com/photos/733745/pexels-photo-733745.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                src={require("../images/5.jpg")}
                 className="d-block w-100 resize-img"
                 alt="car1"
               />
@@ -50,7 +50,7 @@ const Home = () => {
             </div>
             <div className="carousel-item">
               <img
-                src="https://images.pexels.com/photos/1075947/pexels-photo-1075947.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                src={require("../images/9.jpg")}
                 className="d-block w-100 resize-img"
                 alt="..."
               />
@@ -63,8 +63,7 @@ const Home = () => {
             </div>
             <div className="carousel-item">
               <img
-                src="https://images.pexels.com/photos/1719648/pexels-photo-1719648.jpeg?auto=compress&cs=tinysrgb&w=400"
-                className="d-block w-100 resize-img"
+                src={require("../images/8.jpg")}className="d-block w-100 resize-img"
                 alt="..."
               />
               <div className="carousel-caption d-none d-md-block">
@@ -101,7 +100,8 @@ const Home = () => {
           </button>
         </div>
       </section>
-      <section>
+
+      <section className="quote-wrapper">
         <div
           className="quote"
           style={{ backgroundColor: "#FBF9F2", height: "40vh" }}
@@ -113,9 +113,10 @@ const Home = () => {
           </h2>
         </div>
       </section>
-      <Container class1="intro-wrapper py-5 home-wrapper-2">
+
+      <section className="intro-wrapper py-5 home-wrapper-2 container-xxl">
         <img
-          src="https://images.pexels.com/photos/1075947/pexels-photo-1075947.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+          src={require("../images/4.jpg")}
           alt="intro"
           width="600px"
           height="450px"
@@ -138,9 +139,9 @@ const Home = () => {
             porro quo.
           </p>
         </div>
-      </Container>
+      </section>
 
-      <Container class1="blog-wrapper py-5 home-wrapper-2">
+      <section className="blog-wrapper py-5 home-wrapper-2 container-xl">
         <div className="row">
           <div className="col-12">
             <div className="section-heading mb-5">
@@ -187,22 +188,19 @@ const Home = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col-3">
+          <div className="col-4">
             <BlogCard />
           </div>
-          <div className="col-3">
+          <div className="col-4">
             <BlogCard />
           </div>
-          <div className="col-3">
-            <BlogCard />
-          </div>
-          <div className="col-3">
+          <div className="col-4">
             <BlogCard />
           </div>
         </div>
-      </Container>
+      </section>
 
-      <Container className="video-wrapper py-5 home-wrapper-2">
+      <section className="video-wrapper py-5 home-wrapper-2 container-xxl">
         <div className="row">
           <div className="col-12">
             <div className="section-heading mb-5">
@@ -249,20 +247,17 @@ const Home = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col-3">
-            <BlogCard />
+          <div className="col-4">
+            <VideoCard />
           </div>
-          <div className="col-3">
-            <BlogCard />
+          <div className="col-4">
+          <VideoCard />
           </div>
-          <div className="col-3">
-            <BlogCard />
-          </div>
-          <div className="col-3">
-            <BlogCard />
+          <div className="col-4">
+          <VideoCard />
           </div>
         </div>
-      </Container>
+      </section>
     </>
   );
 };
