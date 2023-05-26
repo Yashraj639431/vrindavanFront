@@ -12,9 +12,14 @@ const Footer = () => {
             <div className="col-5">
               <div className="footer-top-data d-flex gap-30 align-items-center">
                 <FaRegNewspaper className="text-white fs-1" />
-                <h2 className="mb-0 text-white" style={{
-            fontSize: "24px",
-          }}>Sign Up for Newsletter</h2>
+                <h2
+                  className="mb-0 text-white"
+                  style={{
+                    fontSize: "24px",
+                  }}
+                >
+                  Sign Up for Newsletter
+                </h2>
               </div>
             </div>
             <div className="col-7">
@@ -45,7 +50,7 @@ const Footer = () => {
           <div className="row">
             <div className="col-3">
               <h4
-                className="text-white mb-4"
+                className="mb-4"
                 style={{
                   fontSize: "18px",
                 }}
@@ -53,13 +58,13 @@ const Footer = () => {
                 Contact Us
               </h4>
               <div>
-                <address className="text-white">
+                <address>
                   Hno : 277 Near Vill Chopal, <br /> Sonipat, Haryana <br />
                   PinCode: 131103
                 </address>
                 <a
                   href="tel:+91 7976524369"
-                  className="mt-3 d-block mb-1 text-white"
+                  className="mt-3 d-block mb-1"
                   style={{
                     fontSize: "14px",
                   }}
@@ -68,7 +73,7 @@ const Footer = () => {
                 </a>
                 <a
                   href="tel:+91 7976524369"
-                  className="mt-2 d-block mb-0 text-white"
+                  className="mt-2 d-block mb-0"
                   style={{
                     fontSize: "14px",
                   }}
@@ -76,16 +81,16 @@ const Footer = () => {
                   yashrajoriya321@gmail.com{" "}
                 </a>
                 <div className="social_icons d-flex align-items-center gap-30 mt-4">
-                  <a className="text-white" href="/">
+                  <a href="/">
                     <BsLinkedin className="fs-5" />
                   </a>
-                  <a className="text-white" href="/">
+                  <a href="/">
                     <BsGithub className="fs-5" />
                   </a>
-                  <a className="text-white" href="/">
+                  <a href="/">
                     <BsYoutube className="fs-5" />
                   </a>
-                  <a className="text-white" href="/">
+                  <a href="/">
                     <BsInstagram className="fs-5" />
                   </a>
                 </div>
@@ -93,7 +98,7 @@ const Footer = () => {
             </div>
             <div className="col-3">
               <h4
-                className="text-white mb-4"
+                className="mb-4"
                 style={{
                   fontSize: "18px",
                 }}
@@ -103,7 +108,7 @@ const Footer = () => {
               <div className="footer-links d-flex flex-column">
                 <Link
                   to="/privacy-policy"
-                  className="text-white py-2 mb-1"
+                  className="py-2 mb-1"
                   style={{
                     fontSize: "14px",
                   }}
@@ -112,7 +117,7 @@ const Footer = () => {
                 </Link>
                 <Link
                   to="/refund-policy"
-                  className="text-white py-2 mb-1"
+                  className="py-2 mb-1"
                   style={{
                     fontSize: "14px",
                   }}
@@ -121,7 +126,7 @@ const Footer = () => {
                 </Link>
                 <Link
                   to="/shipping-policy"
-                  className="text-white py-2 mb-1"
+                  className="py-2 mb-1"
                   style={{
                     fontSize: "14px",
                   }}
@@ -130,7 +135,7 @@ const Footer = () => {
                 </Link>
                 <Link
                   to="/terms-and-conditions"
-                  className="text-white py-2 mb-1"
+                  className="py-2 mb-1"
                   style={{
                     fontSize: "14px",
                   }}
@@ -139,7 +144,7 @@ const Footer = () => {
                 </Link>
                 <Link
                   to="/blogs"
-                  className="text-white py-2 mb-1"
+                  className="py-2 mb-1"
                   style={{
                     fontSize: "14px",
                   }}
@@ -150,7 +155,7 @@ const Footer = () => {
             </div>
             <div className="col-3">
               <h4
-                className="text-white mb-4"
+                className="mb-4"
                 style={{
                   fontSize: "18px",
                 }}
@@ -159,7 +164,7 @@ const Footer = () => {
               </h4>
               <div className="footer-links d-flex flex-column">
                 <Link
-                  className="text-white py-2 mb-1"
+                  className="py-2 mb-1"
                   style={{
                     fontSize: "14px",
                   }}
@@ -167,7 +172,7 @@ const Footer = () => {
                   About Us
                 </Link>
                 <Link
-                  className="text-white py-2 mb-1"
+                  className="py-2 mb-1"
                   style={{
                     fontSize: "14px",
                   }}
@@ -176,7 +181,7 @@ const Footer = () => {
                 </Link>
                 <Link
                   to="/contact"
-                  className="text-white py-2 mb-1"
+                  className="py-2 mb-1"
                   style={{
                     fontSize: "14px",
                   }}
@@ -187,7 +192,7 @@ const Footer = () => {
             </div>
             <div className="col-2">
               <h4
-                className="text-white mb-4"
+                className="mb-4"
                 style={{
                   fontSize: "18px",
                 }}
@@ -196,7 +201,7 @@ const Footer = () => {
               </h4>
               <div className="footer-links d-flex flex-column">
                 <Link
-                  className="text-white py-2 mb-1"
+                  className="py-2 mb-1"
                   style={{
                     fontSize: "14px",
                   }}
@@ -204,7 +209,7 @@ const Footer = () => {
                   Laptops
                 </Link>
                 <Link
-                  className="text-white py-2 mb-1"
+                  className="py-2 mb-1"
                   style={{
                     fontSize: "14px",
                   }}
@@ -212,7 +217,7 @@ const Footer = () => {
                   Headphones
                 </Link>
                 <Link
-                  className="text-white py-2 mb-1"
+                  className="py-2 mb-1"
                   style={{
                     fontSize: "14px",
                   }}
@@ -220,7 +225,7 @@ const Footer = () => {
                   Tablets
                 </Link>
                 <Link
-                  className="text-white py-2 mb-1"
+                  className="py-2 mb-1"
                   style={{
                     fontSize: "14px",
                   }}
@@ -237,8 +242,8 @@ const Footer = () => {
         <div className="container-xxl">
           <div className="row">
             <div className="col-12">
-              <p className="text-center mb-0 text-white">
-                &copy;{new Date().getFullYear()} ; Powered by Yash Rajoriya
+              <p className="text-center mb-0">
+                &copy;{new Date().getFullYear()}; Powered by Yash Rajoriya and Mihir Vir
               </p>
             </div>
           </div>
